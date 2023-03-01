@@ -30,7 +30,7 @@ pipeline{
 		{
 			steps
 			{
-				withSonarQubeEnv(installationName: 'Test_Sonar')
+				withSonarQubeEnv(installationName: 'Ashish-jenkins-Token')
 				{
 					bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar"
 				}
