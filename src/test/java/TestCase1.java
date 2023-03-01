@@ -11,4 +11,9 @@ public class TestCase1 extends BaseClass {
     public void Testcase2(){
         System.out.println("This is Test Case 2");
     }
+
+    @Test
+    public void Testcase3(){
+        System.out.println("This is Test Case 3");
+    }
 }
